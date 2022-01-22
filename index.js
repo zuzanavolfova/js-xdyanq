@@ -1,1 +1,1 @@
-import './ukol1.js'
+import './ukol1-1.js';
