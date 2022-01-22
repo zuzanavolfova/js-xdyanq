@@ -1,9 +1,20 @@
 let jmenoMuz = 'Honza';
 let jmenoZena = 'Eva';
 let narozeniMuz = 1980;
-let narozeniZena = 1990;
+let narozeniMesicMuz = 10;
+let narozeniMesicZena = 9;
+let narozeniZena = 1991;
+let mesice =
+  (narozeniZena - narozeniMuz) * 12 + (narozeniMesicZena - narozeniMesicMuz);
 
-console.log(jmenoMuz + ' a ' + jmenoZena + );
+console.log(
+  jmenoMuz +
+    ' a ' +
+    jmenoZena +
+    ' a jsou od sebe věkově vzdáleni ' +
+    mesice +
+    ' měsíců.'
+);
 
 /*Nadefinujme si proměnné a jejich hodnoty potřebné k uložení následujících informací: 
 • Jméno muže a ženy 
